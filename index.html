@@ -5,6 +5,7 @@
         html, body {
             height: 100%;
             margin: 0;
+            font-family: arial, sans-serif;
         }
 
         #page-wrap {
@@ -24,8 +25,14 @@
         }
 
         .search-field {
-            height: 24px;
+            height: 44px;
+            border-radius: 22px;
             width: 100%;
+            border: 1px solid #ddd;
+        }
+
+        #page-wrap .nav {
+            padding-top: 15px;
         }
 
         .nav {
@@ -35,12 +42,13 @@
         .nav ul {
             list-style: none;
             display: inline-block;
-            padding: 0px;
+            padding: 15px;
         }
 
         .nav li {
             display: inline;
-            padding: 10px;
+            padding: 5px;
+            font-size: 13px;
         }
 
         .nav-left {
@@ -72,8 +80,8 @@
             </ul>
         </div>
         <div class="search">
-            <h1>GOOGLE</h1>
-            <input class="search-field" type="text" placeholder="Start typing to begin searching..."></input>
+            <img alt="Google" height="92" width="272" id="hplogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            <input class="search-field" type="text"></input>
         </div>
     </div>
     <footer>
